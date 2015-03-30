@@ -1,9 +1,22 @@
-var MongoClient = require("mongodb").MongoClient;
+//var MongoClient = require("mongodb").MongoClient;
+var express = require('express');
 
-console.log('not started')
+var app = express();
 
+app.get('/', function(req, res){
+	res.send("HelloWorld");	
+});
+
+app.get('*', function(req, res){
+	res.send("Page not found", 404);	
+});
+
+app.listen(8080);
+console.log("server started");
+
+
+/*
 MongoClient.connect('mongodb://localhost:27017/test', function(err, db){
-	console.log('connected');
 
 	if(err) throw err;
 
@@ -15,6 +28,6 @@ MongoClient.connect('mongodb://localhost:27017/test', function(err, db){
 		db.close();
 	});
 
-	console.dir("called findOne");
+	//console.dir("called findOne");
 });
-
+*/

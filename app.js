@@ -20,7 +20,7 @@ function errorHandler(err, req, res, next){
 
 app.use(errorHandler);
 
-app.route('/details/:name')
+app.route('/:name')
     .get(function(req, res){
 
         var name = req.params.name;

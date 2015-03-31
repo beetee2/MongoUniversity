@@ -3,11 +3,15 @@ var express = require('express'),
 	cons = require('consolidate'),
     Db = require('mongodb').Db,
     MongoClient = require('mongodb').MongoClient,
-	Server = require('mongodb').Server;
+    bodyParser = require('body-parser');
 
 app.engine('html', cons.swig);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 //app.set(app.router);
 
 function errorHandler(err, req, res, next){
@@ -20,17 +24,26 @@ function errorHandler(err, req, res, next){
 
 app.use(errorHandler);
 
-app.route('/:name')
-    .get(function(req, res){
+/*
+ app.route('/:name')
+ .get(function(req, res){
 
-        var name = req.params.name;
-         var GetVar1 = req.query.getVar1;
-         var GetVar2 = req.query.getVar2;
-         res.render('hello', {name: name, getVar1: GetVar1, getVar2: GetVar2});
+ var name = req.params.name;
+ var GetVar1 = req.query.getVar1;
+ var GetVar2 = req.query.getVar2;
+ res.render('hello', {name: name, getVar1: GetVar1, getVar2: GetVar2});
+ });
+*/
+app.route('/fruits')
+    .get(function(req,res, next){
+        res.render("fruitPicker", {fruits: ["apple","orange","banana","peach"]});
+    })
+    .post(function(req, res, next){
+        var favorite = req.body.fruit;
+        if(favorite == undefined)
+            next(Error('Please choose a fruit'));
+        res.send("Your favorite fruit is: " + favorite);
     });
-
-
-
 
 /*
 app.get('/', function(req, res){

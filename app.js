@@ -26,28 +26,49 @@ app.use(errorHandler);
 
 app.get('/', function(req, res){
     return res.render('hello');
-
 });
 
-app.route('/users')
+app.route('/courses')
     .get(function(req, res, next){
-        var users = [];
-        Db.collection('users').findOne(function(err, docs){
 
-            res.status(200).json(docs);
-        });
+        /*
+        * var query = {'grade': 100};
+         function callback(err, doc) {
+         if(err) throw err;
 
+         console.dir(doc);
 
-    })
+         Db.close();
+         }
+         Db.collection('grades').find(query, callback);
+         Db.collection('grades').find(query).toArray(callback);*/
+        /*
+         Db.collection('grades').findOne(query, function(err, docs){
+         if(err) throw err;
 
-    /*
-    * .getById(function(req,res, next){
-     var user = null;
-     Db.collection('users').findOne({}, function(err, doc){
-     user = doc;
-     });
-     res.json(200, { user: user});
-     })*/
+         console.log(docs)
+         //res.status(200).json(docs);
+         Db.close();
+         });
+         * */
+
+        /*
+        * Db.collection('grades').find(query).toArray(function(err, docs){
+        * if(err) throw err;
+         console.log(docs);
+         Db.close();
+         });*/
+
+        /*
+        * var cursor = Db.collection('grades').find(query);
+         cursor.each(function(err, doc){
+         if(err) throw err;
+         if(doc == null) return Db.close();
+
+         console.dir(doc);
+         });
+        * */
+     })
     .post(function(req, res, next){
         //var id = req.params.id;
         var user = req.body.user;
@@ -57,6 +78,7 @@ app.route('/users')
         res.send(200);
     })
     .put(function(req, res, next){
+        //upsert
         var user = req.params.user;
         Db.collection('users').save(user, function(err, doc){
             console.log(doc);
@@ -64,6 +86,7 @@ app.route('/users')
         res.send(200);
     })
     .delete(function(req, res, next) {
+        //upsert
         var id = req.params.id;
         Db.collection('users').findOne({_id: id}, function (err, user) {
             console.log(user);
@@ -79,7 +102,7 @@ app.get('*', function(req, res){
     res.status(404).send('Page Not Found');
 });
 
-var url = "mongodb://localhost:27017/test";
+var url = "mongodb://localhost:27017/course";
 MongoClient.connect(url, function (err, db){
 	if(err) throw err;
 

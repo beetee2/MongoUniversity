@@ -31,8 +31,9 @@ app.get('/', function(req, res){
 app.route('/courses')
     .get(function(req, res, next){
 
-        /*
-        * var query = {'grade': 100};
+
+         var query = {'grade': 100};
+        var projection = { student: 1, _id:0}
          function callback(err, doc) {
          if(err) throw err;
 
@@ -40,34 +41,9 @@ app.route('/courses')
 
          Db.close();
          }
-         Db.collection('grades').find(query, callback);
-         Db.collection('grades').find(query).toArray(callback);*/
-        /*
-         Db.collection('grades').findOne(query, function(err, docs){
-         if(err) throw err;
+         //Db.collection('grades').find(query, callback);
+         Db.collection('grades').find(query, projection).toArray(callback);
 
-         console.log(docs)
-         //res.status(200).json(docs);
-         Db.close();
-         });
-         * */
-
-        /*
-        * Db.collection('grades').find(query).toArray(function(err, docs){
-        * if(err) throw err;
-         console.log(docs);
-         Db.close();
-         });*/
-
-        /*
-        * var cursor = Db.collection('grades').find(query);
-         cursor.each(function(err, doc){
-         if(err) throw err;
-         if(doc == null) return Db.close();
-
-         console.dir(doc);
-         });
-        * */
      })
     .post(function(req, res, next){
         //var id = req.params.id;

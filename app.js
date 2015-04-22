@@ -1,23 +1,27 @@
-var MongoClient = require('mongodb').MongoClient;
+var express = require('express')
+  , app = express() // Web framework to handle routing requests
+  , cons = require('consolidate') // Templating library adapter for Express
+  , MongoClient = require('mongodb').MongoClient // Driver for connecting to MongoDB
+  , routes = require('./routes'); // Routes for our application
 
-MongoClient.connect("mongodb://localhost:27017/course", function (err, db){
-	if(err) throw err;
+MongoClient.connect('mongodb://localhost:27017/blog', function(err, db) {
+    "use strict";
+    if(err) throw err;
 
-    function callback(err, docs){
-        if(err) throw err;
-        console.dir(docs);
-    }
+    // Register our templating engine
+    app.engine('html', cons.swig);
+    app.set('view engine', 'html');
+    app.set('views', __dirname + '/views');
 
-    var query  = { };
-    var projection = {title: 1, domain:1, _id:0};
-    var sort = {domain:1}
-    var cursor = db.collection('technology').find(query, projection);
+    // Express middleware to populate 'req.cookies' so we can access cookies
+    app.use(express.cookieParser());
 
-    cursor.sort(sort);
-    cursor.skip(0);
-    cursor.limit(5);
+    // Express middleware to populate 'req.body' so we can access POST variables
+    app.use(express.bodyParser());
 
-    cursor.toArray(callback);
+    // Application routes
+    routes(app, db);
+
+    app.listen(8082);
+    console.log('Express server listening on port 8082');
 });
-
-

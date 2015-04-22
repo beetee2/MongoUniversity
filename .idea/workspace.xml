@@ -1,8 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app.js" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd761967-3476-427a-9eb9-56ce2e8c6359" name="Default" comment="sort">
+    <list default="true" id="dd761967-3476-427a-9eb9-56ce2e8c6359" name="Default" comment="blog app">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/welcome.html" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\data\grades.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\.bin\swig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\.bin\swig.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\angular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\lib\types\json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\lib\types\raw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\lib\types\text.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\bytes\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\bytes\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\bytes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\bytes\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\content-type\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\content-type\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\content-type\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\content-type\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\node_modules\ms\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\node_modules\ms\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\depd\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\depd\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\depd\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\Changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\internal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\sbcs-codec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\sbcs-data-generated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\sbcs-data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\tables\big5-added.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\tables\gbk-added.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\utf16.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\encodings\utf7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\lib\extend-node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\iconv-lite\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\on-finished\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\on-finished\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\qs\test\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\raw-body\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\raw-body\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\raw-body\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\media-typer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\media-typer\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\node_modules\type-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\body-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\consolidate\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\lib\middleware\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\lib\middleware\query.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\lib\router\layer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\mime-types\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\db.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\negotiator\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\negotiator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\node_modules\negotiator\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\accepts\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\finalhandler\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\finalhandler\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\finalhandler\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\on-finished\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\on-finished\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\on-finished\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\on-finished\node_modules\ee-first\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\on-finished\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\path-to-regexp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\path-to-regexp\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\path-to-regexp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\path-to-regexp\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\qs\test\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\serve-static\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\serve-static\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\serve-static\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\media-typer\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\media-typer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\media-typer\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\express\node_modules\type-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\conf.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\aggregation_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\bulk\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\bulk\unordered.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\command_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\gridfs\chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\gridfs\grid_store.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\url_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\conf.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\auth\gssapi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\auth\plain.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\connection\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\connection\logger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\tools\smoke_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\command_result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\replset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\wireprotocol\2_4_support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\lib\wireprotocol\2_6_support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\.bin\mkdirp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\.bin\mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\.bin\rimraf.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\bson_new.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\code.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\double.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\max_key.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\HISTORY" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\bson.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\bson.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\ext\win32\ia32\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\db_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\lib\bson\timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\nan_implementation_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\nan_implementation_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\nan_string_bytes.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\node_modules\nan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\test\node\bson_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\test\node\to_bson_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\node_modules\bson-ext\test\node\tools\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\tools\gleak.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\auth_processes\mongodb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos_context.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberosgss.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberosgss.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos_sspi.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos_sspi.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan_new.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\kerberos_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\kerberos_win32_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\win32\security_buffer_descriptor_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\win32\security_credentials_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\bin\usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\node_modules\minimist\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\node_modules\minimist\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\node_modules\minimist\test\dash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\node_modules\minimist\test\parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\node_modules\minimist\test\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\opts_fs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\opts_fs_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\rel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\return.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\return_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\mkdirp\test\sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\rimraf\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\rimraf\bin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\rimraf\rimraf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\rimraf\test\test-async.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\node_modules\rimraf\test\test-sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\node_modules\mongodb-core\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\browser\comments.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\browser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\browser\test\expect.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\browser\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\browser\test\mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\dateformatter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\loaders\filesystem.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\loaders\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\loaders\memory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\tags\elseif.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\tags\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\swig\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\views\fruitPicker.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\views\hello.html" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\node_modules\mongodb\README.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/.npmignore" afterPath="$PROJECT_DIR$/node_modules/swig/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongodb/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/swig/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/swig/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/consolidate/History.md" afterPath="$PROJECT_DIR$/node_modules/consolidate/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/History.md" afterPath="$PROJECT_DIR$/node_modules/express/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/LICENSE" afterPath="$PROJECT_DIR$/node_modules/swig/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongodb/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/README.md" afterPath="$PROJECT_DIR$/node_modules/swig/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/block.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/block.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/else.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/else.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/extends.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/extends.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/filters.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/for.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/for.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/if.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/if.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/import.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/import.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/index.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/index.js" afterPath="$PROJECT_DIR$/node_modules/swig/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/macro.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/macro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/consolidate/package.json" afterPath="$PROJECT_DIR$/node_modules/consolidate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/parent.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/parent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/raw.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/raw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/set.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/tags/spaceless.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/tags/spaceless.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/swig/lib/swig.js" afterPath="$PROJECT_DIR$/node_modules/swig/lib/swig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello_world_mongodb.iws" />
@@ -24,47 +364,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37465563">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fruitPicker.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
+      <file leaf-file-name="entry_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/entry_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.4230769">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/hello.html">
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.269231">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newpost_template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/newpost_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7753304">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/content.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/session.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/blog_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Html5" />
+      </list>
+    </option>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,6 +481,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/routes" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/routes/error.js" />
+        <option value="$PROJECT_DIR$/routes/content.js" />
+        <option value="$PROJECT_DIR$/routes/session.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/welcome.html" />
+        <option value="$PROJECT_DIR$/views/entry_template.html" />
+        <option value="$PROJECT_DIR$/views/newpost_template.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -142,7 +567,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,6 +600,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb\views" />
+      <recent name="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bocarlos\WebstormProjects\hello_world_mongodb" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.app.js">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
@@ -196,6 +630,13 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -203,6 +644,9 @@
       <option name="cucumberJsArguments" />
       <option name="executablePath" />
       <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <list size="1">
@@ -273,31 +717,37 @@
       <option name="project" value="LOCAL" />
       <updated>1428552287684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="toArray sorted, skiped and limited">
+      <created>1429741303964</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1429741303964</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1869455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48280424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4834437" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -324,18 +774,20 @@
     <MESSAGE value="reddit" />
     <MESSAGE value="regex" />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="toArray sorted, skiped and limited" />
+    <MESSAGE value="blog app" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="50" />
+          <line>16</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -356,22 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -388,22 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -416,22 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -452,22 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -480,22 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -516,22 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -544,22 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -580,42 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -628,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -644,48 +944,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/fruitPicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/grades.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4702381">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.html">
+    <entry file="file://$PROJECT_DIR$/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/error_template.html">
+    <entry file="file://$PROJECT_DIR$/routes/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37465563">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.269231">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/entry_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4230769">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/newpost_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7753304">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -17,12 +17,7 @@ MongoClient.connect("mongodb://localhost:27017/course", function (err, db){
     cursor.skip(0);
     cursor.limit(5);
 
-
     cursor.toArray(callback);
-
-
-
-
 });
 
 

@@ -28,9 +28,11 @@ function UsersDAO(db) {
             user['email'] = email;
         }
 
-        // TODO: hw2.3
-        callback(Error("addUser Not Yet Implemented!"), null);
-    }
+        users.insert(user, function(err, doc){
+
+            callback(err, doc);
+        });
+    };
 
     this.validateLogin = function(username, password, callback) {
         "use strict";
@@ -60,8 +62,10 @@ function UsersDAO(db) {
             }
         }
 
-        // TODO: hw2.3
-        callback(Error("validateLogin Not Yet Implemented!"), null);
+        users.findOne( {_id:{ $eq : username} }, function(err, doc){
+           return validateUserDoc(err, doc);
+        });
+
     }
 }
 

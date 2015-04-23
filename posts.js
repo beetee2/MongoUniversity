@@ -26,12 +26,12 @@ function PostsDAO(db) {
                 "permalink":permalink,
                 "tags": tags,
                 "comments": [],
-                "date": new Date()}
+                "date": new Date()};
 
-        // now insert the post
-        // hw3.2 TODO
-        callback(Error("insertEntry Not Yet Implemented!"), null);
-    }
+        posts.insert(post, function(err, doc){
+            callback(err, doc);
+        })
+    };
 
     this.getPosts = function(num, callback) {
         "use strict";
@@ -45,7 +45,7 @@ function PostsDAO(db) {
 
             callback(err, items);
         });
-    }
+    };
 
     this.getPostsByTag = function(tag, num, callback) {
         "use strict";
@@ -59,7 +59,7 @@ function PostsDAO(db) {
 
             callback(err, items);
         });
-    }
+    };
 
     this.getPostByPermalink = function(permalink, callback) {
         "use strict";
@@ -70,19 +70,26 @@ function PostsDAO(db) {
 
             callback(err, post);
         });
-    }
+    };
 
     this.addComment = function(permalink, name, email, body, callback) {
         "use strict";
 
-        var comment = {'author': name, 'body': body}
+        var comment = {'author': name, 'body': body};
 
         if (email != "") {
             comment['email'] = email
         }
+        var query = { 'permalink': permalink };
+        var update = { $push : { comments : comment }};
 
-        // hw3.3 TODO
-        callback(Error("addComment Not Yet Implemented!"), null);
+        posts.update(query, update, function(err, doc){
+                "use strict";
+                if (err) return callback(err, null);
+
+                callback(err,doc);
+            });
+
     }
 }
 
